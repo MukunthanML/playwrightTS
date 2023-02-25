@@ -1,0 +1,19 @@
+{
+  "firstName": "Mukunthan",
+  "lastName": "Ragavan",
+  "gender": "Male",
+  "mail": "mukunthan@test.com",
+  "mobile": "2345678901",
+
+  "birthDate": "10",
+  "birthMonth": "2",
+  "birthMonthinWords": "March",
+  "birthYear": "1990",
+  "subject": ["Maths", "Computer Science"],
+  "hobby": ["Reading", "Music"],
+  "address": "1181AB West street \nMeander \n NL",
+  "state": "Rajasthan",
+  "city": "Jaipur",
+  "filePath": "fixtures/devops.png",
+  "fileNameDisplay": "devops.png"
+}
