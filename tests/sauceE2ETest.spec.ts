@@ -20,9 +20,9 @@ test.describe("test", async () => {
     page = await browser.newPage();
   });
 
-  // test.afterAll(async () => {
-  //   await page.close();
-  // });
+  test.afterAll(async () => {
+    await page.close();
+  });
 
   test("Login", async () => {
     const login = new SauceLogin(page);
