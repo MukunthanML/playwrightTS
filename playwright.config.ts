@@ -5,7 +5,16 @@ import { devices } from "@playwright/test";
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// require('dotenv').config();
+
+process.env.NODE_ENV="qa";
+
+if(!process.env.NODE_ENV){
+require('dotenv').config();
+}
+else{
+  require('dotenv').config({path:`${__dirname}\\.env.${process.env.NODE_ENV}`});
+
+}
 
 /**
  * See https://playwright.dev/docs/test-configuration.

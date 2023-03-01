@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
     "xlsx": "^0.18.5"
   }
 }
